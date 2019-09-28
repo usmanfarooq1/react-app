@@ -1,0 +1,35 @@
+.container{
+    display:grid;
+    grid-template-columns:50% 50%;
+    background-color:#0997a9;
+    color:white;
+  }
+  .links-container{
+    margin: 0;
+    padding: 0;
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows:100%;
+  }
+  .heading{
+    align-self:center;
+    justify-self: center;
+  }
+  .item{
+  /*   justify-self: stretch; */
+    align-self:center;
+  /*   float:right; */
+  }
+  .item:hover{
+    background-color:#076c79;
+    border-radius:15px; 
+    
+  }
+  a{
+    color:white;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
