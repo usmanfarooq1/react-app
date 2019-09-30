@@ -1,0 +1,31 @@
+.article{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    border: 2px black solid;
+    font-size: 10px;
+}
+.item_article{
+    height: 100vh;
+}
+
+.image{
+    align-self:right;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.span_black{
+    background-color: #262626;
+    text-align: center;
+    border: 2px solid #011618;
+    border-radius: 40px;
+    color: white;
+}
+.asign_bottom{
+    align-self:flex-end;
+}
+.new_window{
+    background-color: #262626;
+    color: white;
+}

@@ -28,7 +28,7 @@ input {
   justify-self: stretch;
   text-align: center;
 }
-button {
+.button_search {
   width: 20%;
   height: 50%;
   /* margin-top: 50px; */
